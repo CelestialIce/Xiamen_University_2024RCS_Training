@@ -5,6 +5,31 @@
 熟练使用Google
 梯子(VPN)----计算机学生必备
 
+# 学习使用Github
+(一般需要使用梯子,校园网可以连,但是不稳定)  
+
+<https://zhuanlan.zhihu.com/p/369486197>  
+
+ssh配置  
+
+<https://blog.csdn.net/weixin_42310154/article/details/118340458>
+
+# 安装WSL(类似双系统)
+___本次培训接下来配置环境可以选择在linux中配置,也可以在win11环境下运行,一般推荐在linux环境中运行ai项目___  
+___经测试本次实验可以在win11环境下运行___  
+
+<https://bilibili.com/read/cv16825907>
+<https://juejin.cn/post/7173582392064475150>    
+
+>
+>注意问题 如果存在应用商店网络问题，可以尝试使用Host修改工具
+>
+>(www.dogfight360.com/blog/475/)
+>
+>每个人的电脑有独属于自己的问题 最好查询google
+
+# 安装miniconda()
+
 # 基础知识
 
 ## 学习使用Github
@@ -65,6 +90,8 @@ win+r 输入cmd 呼唤出cmd
 
 
 ## scoop 拥抱终端 未曾设想的道路   
+
+先阅读下列教程  
 
 先阅读下列教程  
 
