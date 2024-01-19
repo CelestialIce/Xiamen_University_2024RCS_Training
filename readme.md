@@ -72,27 +72,34 @@ win+r 输入cmd 呼唤出cmd
 # 以下推荐两种配置方法
 - 传统配置方法
 - scoop(windows下的包管理工具)
+## 安装miniconda()  
 
+请阅读下列教程   
 
-## 安装miniconda()
-请阅读下列教程 
-阅读完再开始操作
-<https://blog.csdn.net/Loveful/article/details/132412037>
-[https://blog.csdn.net/qq_40597075/article/details/122560335](https://blog.csdn.net/qq_40597075/article/details/122560335)
+阅读完再开始操作  
+
+<https://blog.csdn.net/Loveful/article/details/132412037>  
+
+[https://blog.csdn.net/qq_40597075/article/details/122560335](https://blog.csdn.net/qq_40597075/article/details/122560335)  
+
 >注 安装时推荐选择`just me`以及`自动配置环境变量`的选项
-## 下载vscode
-<https://code.visualstudio.com/download>
-### 配置python和jupyter
-<http://www.kaixinit.com/info/python/9186.html> 
-(忽略其中的anaconda部分,其实anaconda和miniconda很像,但是体积太大,电脑在512g内存及以下的慎装)
+## 下载vscode  
+
+<https://code.visualstudio.com/download>  
+
+### 配置python和jupyter  
+
+<http://www.kaixinit.com/info/python/9186.html>   
+
+(忽略其中的anaconda部分,其实anaconda和miniconda很像,但是体积太大,电脑在512g内存及以下的慎装)  
+
 <https://cangmang.xyz/articles/1642849032438>
-
-
 ## scoop 拥抱终端 未曾设想的道路   
 
 先阅读下列教程  
 
-<https://p3terx.com/archives/scoop-the-best-windows-package-manager.html>
+<https://p3terx.com/archives/scoop-the-best-windows-package-manager.html>  
+
 <https://zhuanlan.zhihu.com/p/128955118?utm_id=0>
 
 设置配置路径(设置完之后你的文件都会下载到这里)
