@@ -28,7 +28,6 @@ ___经测试本次实验可以在win11环境下运行___
 >
 >每个人的电脑有独属于自己的问题 最好查询google
 
-# 安装miniconda()
 
 # 基础知识
 
@@ -55,7 +54,7 @@ ___经测试本次实验可以在win11环境下运行___
 >
 >每个人的电脑有独属于自己的问题 最好查询google
 
-windows 的cmd powershell之间的区别  
+## 了解windows 的cmd powershell之间的区别  
 
 <https://hackmd.io/@__HTwCNgSRaw2rSxRS-R-g/Byz832gRj>
 上述的操作都可以用几行命令完成,这就是计算机的魅力  
@@ -93,30 +92,28 @@ win+r 输入cmd 呼唤出cmd
 
 先阅读下列教程  
 
-先阅读下列教程  
-
 <https://p3terx.com/archives/scoop-the-best-windows-package-manager.html>
 <https://zhuanlan.zhihu.com/p/128955118?utm_id=0>
 
-- 设置配置路径(设置完之后你的文件都会下载到这里)
-    ```
-    $env:SCOOP='D:\Scoop'
-    [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
-    $env:SCOOP_GLOBAL='D:\Scoop_Global'
-    [Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
-    ```
+设置配置路径(设置完之后你的文件都会下载到这里)
+```
+#此时需要管理员权限
+$env:SCOOP='D:\Scoop'
+[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+$env:SCOOP_GLOBAL='D:\Scoop_Global'
+[Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
+```
 输入下列命令安装scoop(以下均在在powershell中输入)
 ```
+#此时不可以是管理员权限
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 irm get.scoop.sh | iex
 ```
-配置安装路径
-- 查看当前配置路径
-    ```
-    scoop config
-    ```
 
-
+安装wsl
+```
+scoop install wsl
+```
 安装miniconda
 ```
 scoop install miniconda
@@ -125,7 +122,4 @@ scoop install miniconda
 ```
 scoop install vscode
 ```
-安装wsl
-```
-scoop install wsl
-```
+
